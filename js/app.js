@@ -3,6 +3,21 @@ console.log("Hello");
 // age est un number// 
 let age;
 age = 15;
+age = prompt("tappez votre age");
+if(age <= 0){
+    console.log("vous êtes un poisson panné")
+
+}else if(age <= 120){
+    console.log("Votre âge est validé")
+}else if(age <= 0){
+    console.log("Je ne suis pas d'accord")
+}else if(age >= 21){
+    console.log("VOUS ÊTES MAJEUR")
+}else if(age >= 18){
+    console.log("VOUS ÊTES MAJEUR MAIS PAS AUX USA")
+}
+
+
 
 // prenom est un string //
 const prenom = "Maxime" ;
