@@ -121,11 +121,24 @@ while (Index <= 4) {
 let chiffres = 0;
 while (chiffres <= 100) {
     console.log(chiffres);
-    chiffres += 3
+    chiffres += 3;
 }
 
 let chiffre = 0;
 while (chiffre <= 99) {
     console.log(chiffre);
-    chiffre ++
+    chiffre ++;
 }
+
+// faux car key ne peux pas être plus grand que 100 
+let key = 0;
+while(key > 100){
+   console.log(key);
+   key++;
+}
+
+let id = 0;
+do {
+   console.log(id);
+   id++;
+} while(id > 100);
