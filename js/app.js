@@ -83,12 +83,11 @@ return num > 0
 positive(5);
 
 
+age = parseInt(age);
+let verifier_nombre = isNaN(age);
+console.log(age);
+console.log(verifier_nombre);
 
-
-age = parseInt(age)
-let verifier_nombre = isNaN(age)
-console.log(age)
-console.log(verifier_nombre)
 
 function isValid(userInput){
     let input = parseInt(userInput);
@@ -102,6 +101,7 @@ function isValid(userInput){
 }
 isValid("152");
 
+
 let resultat = isValid(age);
     console.log(resultat)
 let resultatinverse = !resultat;
@@ -113,22 +113,27 @@ console.log(2);
 console.log(3);
 console.log(4);
 
+
 let Index = 0;
 while (Index <= 4) {
     console.log(Index)
     Index ++
 }
+
+
 let chiffres = 0;
 while (chiffres <= 100) {
     console.log(chiffres);
     chiffres += 3;
 }
 
+
 let chiffre = 0;
 while (chiffre <= 99) {
     console.log(chiffre);
     chiffre ++;
 }
+
 
 // faux car key ne peux pas être plus grand que 100 
 let key = 0;
@@ -137,8 +142,13 @@ while(key > 100){
    key++;
 }
 
+
 let id = 0;
 do {
    console.log(id);
    id++;
 } while(id > 100);
+
+
+let ages = [14,14,14,15,15,15,16,16,16,16,16,17];
+console.log(ages);
