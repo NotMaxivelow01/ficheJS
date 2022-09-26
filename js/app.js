@@ -5,16 +5,16 @@ let age;
 age = 15;
 age = prompt("tappez votre age");
 if(age <= 0){
-    console.log("vous êtes un poisson panné")
+    console.log("vous êtes un poisson panné");
 
 }else if(age <= 120){
-    console.log("Votre âge est validé")
+    console.log("Votre âge est validé");
 }else if(age <= 0){
-    console.log("Je ne suis pas d'accord")
+    console.log("Je ne suis pas d'accord");
 }else if(age >= 21){
-    console.log("VOUS ÊTES MAJEUR")
+    console.log("VOUS ÊTES MAJEUR");
 }else if(age >= 18){
-    console.log("VOUS ÊTES MAJEUR MAIS PAS AUX USA")
+    console.log("VOUS ÊTES MAJEUR MAIS PAS AUX USA");
 }
 
 
@@ -32,19 +32,51 @@ let multiplication = 3*8;
 console.log(multiplication);
 
 let division = 7/2; 
-console.log(division)
+console.log(division);
 
 let modulo = 5%2;
-console.log(modulo)
+console.log(modulo);;
 
 //test est booleenne//
 let test = 3>5;
-console.log(typeof(test))
+console.log(typeof(test));
 
 const identity = "Bonjour" + " " + "Maxime" + " " + "vous avez" + " " + "15" + " " + "ans"
 let majuscule = identity.toUpperCase();
 // bonjour +  + prenom +  + vous avez +  + 15 +  + ans  //
-console.log(identity)
-console.log(majuscule)
+console.log(identity);
+console.log(majuscule);
 // majuscule pour mettre identity en maj//
 
+
+
+
+function direbonjour() {
+    console.log("bonjour");
+}
+direbonjour();
+
+function direBonjourAkelkain(name) {
+    console.log("Bonjour " + name);
+}
+direBonjourAkelkain("Maxime")
+
+function hello(name, city) {
+    console.log("Bonjour" + " " + name + " " + "Vous habitez" + " " + "à" + " " + city)
+}
+hello("maxime", "Lyon");
+
+function add(a, b) {
+    console.log(a + b)
+}
+add(2, 5)
+
+function div(a, b) {
+    console.log(a / b)
+}
+div(5, 6)
+
+function positive(num) {
+return num > 0
+}
+positive(5);
