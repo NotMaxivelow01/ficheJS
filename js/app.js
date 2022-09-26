@@ -107,3 +107,25 @@ let resultat = isValid(age);
 let resultatinverse = !resultat;
     console.log(resultatinverse);
 
+console.log(0);
+console.log(1);
+console.log(2);
+console.log(3);
+console.log(4);
+
+let Index = 0;
+while (Index <= 4) {
+    console.log(Index)
+    Index ++
+}
+let chiffres = 0;
+while (chiffres <= 100) {
+    console.log(chiffres);
+    chiffres += 3
+}
+
+let chiffre = 0;
+while (chiffre <= 99) {
+    console.log(chiffre);
+    chiffre ++
+}
