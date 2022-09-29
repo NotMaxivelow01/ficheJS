@@ -150,5 +150,67 @@ do {
 } while(id > 100);
 
 
-let ages = [14,14,14,15,15,15,16,16,16,16,16,17];
-console.log(ages);
+//let ages = [14,14,14,15,15,15,16,16,16,16,16,17];
+//console.log(ages);
+//let longueur = ages.length = [17]
+//console.log("longueur")
+
+// let boucle = 0;
+// while(boucle < 100){
+    // console.log(boucle);
+    // boucle ++;
+// }
+
+
+
+t = [ 3, 12 , 50 , 20]
+t2 = []
+
+let index = t.length
+while(index > 0){
+    t2.push(t.pop());
+    index --
+}
+console.log(t2)
+const str1 = ["a", "b", "c"];
+
+
+
+
+arr = [12, 15, -16, -17]
+
+function positives(arr){
+    while (arr > 0){
+    console.log("positife");
+    arr ++
+}
+}
+
+
+
+
+
+
+let T = [1, 2, 3]
+
+function transform (w , arg) {
+    let tmp = [];
+    for(let i = 0 ; i < w.length ; i ++ ){
+    tmp.push(w[i] + arg);
+    }
+    return tmp;
+}
+
+let a = transform (T);
+tmp=[]
+i=0
+i<3
+w= [0] + 1
+[1,2,3]
+tmp = [2]
+
+transform (T, 2)
+
+function add (num){
+    return num + 1
+}
